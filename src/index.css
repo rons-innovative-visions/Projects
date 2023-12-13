@@ -18,7 +18,8 @@ html{
 body {
   margin: 0;
   background-color: #000000;
-  background-image: url("./background.png");
+  background-image: url("../background.png"); 
+  /* background-image: url("./background.png"); */
 }
 
 #root {
