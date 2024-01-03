@@ -22,7 +22,7 @@ function App() {
 
 const Project = ({title, img, vid, url, id}) => {
   return (
-    <article id={title} className='project' key={id}>
+    <article id={title} className='project my-auto' key={id}>
       <h2>{title}</h2>
       <a href={url} target='_blank'>
         <img src={img} alt="" onMouseOver={() => document.getElementById(title).querySelector('video').classList.add('show')}/>

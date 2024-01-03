@@ -7,9 +7,9 @@ export const projects = [
         id: 1
     },
     {
-        title: 'Upcoming Project',
-        img: 'https://dummyimage.com/hd720',
-        vid: '',
+        title: 'Trigonometry Calculator',
+        img: './trigonometry.png',
+        vid: './trigonometry.mp4',
         url: '',
         id: 2
     }
