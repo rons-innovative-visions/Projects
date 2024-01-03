@@ -10,7 +10,7 @@ export const projects = [
         title: 'Trigonometry Calculator',
         img: './trigonometry.png',
         vid: './trigonometry.mp4',
-        url: '',
+        url: 'rons-innovative-visions/Trigonometry_Calculator',
         id: 2
     }
 ]
