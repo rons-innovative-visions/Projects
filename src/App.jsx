@@ -1,4 +1,4 @@
-import {projects} from './projects'
+import {frontend, backend} from './projects'
 
 function App() {
   return (
@@ -6,14 +6,23 @@ function App() {
       <div className="container">
         <section id='title'>
           <h1>My Projects</h1>
-          <a href="#projects"><span></span></a>
+          <a href="#projects_backend"><span></span></a>
         </section>
-        <section id='projects'>
-        {
-          projects.map((props) => {
-            return <Project {...props} key={props.id}/>
-          })
-        }
+        <h1>Backend</h1>
+        <section id='projects_backend' className='backend'>
+          {
+            backend.map((props) => {
+              return <Project {...props} key={props.id}/>
+            })
+          }
+        </section>
+        <h1>Frontend</h1>
+        <section id='projects_frontend' className='frontend'>
+          {
+            frontend.map((props) => {
+              return <Project {...props} key={props.id}/>
+            })
+          }
         </section>
       </div>
     </>
