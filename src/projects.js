@@ -20,7 +20,7 @@ export const backend = [
         title: 'Better Notes - Notes App',
         img: './notes.png',
         vid: './notes.mp4',
-        url: 'https://main--betternotes.netlify.app/notes',
+        url: 'https://main--betternotes.netlify.app/',
         id: 1
     }
 ]
