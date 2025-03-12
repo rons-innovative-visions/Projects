@@ -20,7 +20,7 @@ export const backend = [
         title: 'Better Notes - Notes App',
         img: './notes.png',
         vid: './notes.mp4',
-        url: 'https://better-notes-h0w8rw7wv-rons-innovative-visions-projects.vercel.app/notes',
+        url: 'https://better-notes-eight.vercel.app/',
         id: 1
     }
 ]
